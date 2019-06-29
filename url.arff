@@ -1,0 +1,26 @@
+@relation url_features
+@attribute length_of_url integer
+@attribute length_of_domain integer
+@attribute length_of_path integer
+@attribute depth_of_path integer
+@attribute num_dashes_in_domain integer
+@attribute num_of_queries integer
+@attribute https {'YesHttps', 'NoHttps', 'ErrorHttps'} 
+@attribute IP_check {'NotIP', 'IP'} 
+@attribute num_of_dots integer
+@attribute num_of_dashes integer
+@attribute num_of_underscores integer
+@attribute num_of_percent integer
+@attribute num_of_amp integer
+@attribute num_of_hash integer
+@attribute tilde_exist {'Yes~', 'No~'} 
+@attribute at_exist {'Yes@', 'No@'} 
+@attribute num_of_numbers integer
+@attribute whether_double_slash_in_path {'YesDoubleSlashInPath', 'NoDoubleSlashInPath', 'NoPath'} 
+@attribute num_of_subdomains integer
+@attribute whether_tld_in_subdomains {'YesTLDInSubdomain', 'NoTLDInSubdomain', 'NoSubdomain'} 
+@attribute search_engine {'YesInSE', 'NotInSE', 'ErrorSE'} 
+@attribute hrefs {'BadHREFs', 'GoodHREFs', 'NoHREFs', 'ErrorHREFs', 'N/AHREFs'} 
+@attribute phishy_or_not {'NotPhishy', 'Phishy'} 
+@data
+23,4,0,0,0,0,'YesHttps','NotIP',3,0,0,0,0,0,'No~','No@',0,'NoPath',0,'NoSubdomain','ErrorSE','GoodHREFs',?

@@ -1,0 +1,26 @@
+#!/usr/bin/python3
+# Python script for starting the 'Phishy' tool
+
+import sys
+
+
+from mainHandler import MainHandler
+
+if __name__ == "__main__":
+
+    if len(sys.argv) == 1:
+        print("No URL supplied")
+
+    elif len(sys.argv) > 2:
+        print("Invalid syntax.. use -h for help")
+
+    elif len(sys.argv) == 2 and sys.argv[1] != "-h":
+
+        test = MainHandler(sys.argv[1])
+        test.run()
+
+    elif sys.argv[1] == "-h":
+        print("usage: ./phishy <URL>")
+
+
+
