@@ -10,7 +10,7 @@ Designed and tested on Debian based systems.
 
 **NOTE: ensure to _chmod +x_ the 'phishy' file before usage!**
 <br/>
-## Implented Phishing Detection Techniques
+## Implemented Phishing Detection Techniques
 
 ### White/Blacklisting
 
