@@ -18,7 +18,7 @@ Designed and tested on Debian based systems.
 - IP, URL and domain whitelisting
 - Typoswatting detection in domains/subdomains
 
-**NOTE: The white/blacklists haven't been fleshed out at all as the original project was a PoC.**
+**NOTE: the white/blacklists haven't been fleshed out at all as the original project was a PoC.**
 <br/>
 ### URL Feature Extraction and Classification via ML
 This part of the tool extracts 23 features from the user submitted URL and determines its legitimacy via a supervised Random Tree Model. Makes use of the *python-weka-wrapper* library.
@@ -33,7 +33,7 @@ This part of the tool extracts 23 features from the user submitted URL and deter
 |Number of URL queries|Scheme (HTTPS or HTTP)|Whether the URL’s combined top and second level domains appear in the first page of a Google Search|Whether the URL’s corresponding webpage has links within characteristic of a phishing page i.e. dead links orthose which go to a different domain||||
 <br/>
 
-**NOTE: Feature extraction and classification via ML is only used if the submitted URL isn't flagged up by the white/blacklist test**
+**NOTE: feature extraction and classification via ML is only used if the submitted URL isn't flagged up by the white/blacklist test.**
 <br/>
 ## Requirements
 
