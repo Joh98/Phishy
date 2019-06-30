@@ -1,0 +1,10 @@
+python-weka-wrapper==0.3.15
+requests==2.21.0
+arff==0.9
+beautifulsoup4==4.7.1
+dnspython==1.16.0
+pyfiglet==0.8.post1
+search_engine_parser==0.2.5
+termcolor==1.1.0
+tldextract==2.2.1
+weka==1.0.6

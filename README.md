@@ -33,10 +33,14 @@ This part of the tool extracts 23 features from the user submitted URL and deter
 
 **NOTE: Feature extraction and classification via ML is only used if the submitted URL isn't flagged up by the white/blacklist test**
 <br/>
-## Requirements (INCOMPLETE)
+## Requirements
 
-- Python3
+- Python 3.6
 - Java
+- Weka
 
+It is recommended to use virtualenv to have an isolated environment for the required python packages.
 
+You will also need to run *pip install -r requirements.txt* to install the python packages required.
 
+Then run python *python weka_fix.py* to fix a bug with the python weka library.
