@@ -6,7 +6,7 @@ Designed and tested on Debian based systems.
 
 ## Usage
 
-*~$ ./phishy **'URL'***
+*~$ ./phishy **URL***
 
 **NOTE: ensure to _chmod +x_ the 'phishy' file before usage!**
 <br/>
