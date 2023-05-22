@@ -1,5 +1,5 @@
 python-weka-wrapper==0.3.15
-requests==2.21.0
+requests==2.31.0
 arff==0.9
 beautifulsoup4==4.7.1
 dnspython==1.16.0
